@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "setup-server": "node src/server/setupChannels.js",
-    "send-embeds": "node src/server/sendEmbeds.js",
-    "send-more-embeds": "node src/server/sendAdditionalEmbeds.js",
+    "start": "node index.js",
+    "setup-server": "node setupChannels.js",
+    "send-embeds": "node sendEmbeds.js",
+    "send-more-embeds": "node sendAdditionalEmbeds.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
