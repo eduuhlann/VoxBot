@@ -1,33 +1,65 @@
-# VoxBot - Call Farming System
+# 🎮 Server Management
 
-Este é um sistema de bot duplo (Manager + Selfbot) para farmar horas em chamadas de voz.
+Esta pasta contém scripts e utilitários para gerenciar o servidor Discord.
 
-## Configuração
+## 📁 Estrutura
 
-1.  **Instalação**:
-    Execute `npm install` na pasta do projeto.
+```
+src/server/
+├── setupChannels.js    # Script para criar categorias e canais
+└── README.md          # Este arquivo
+```
 
-2.  **Configuração do Ambiente**:
-    Renomeie o arquivo `.env` e preencha as variáveis:
-    -   `BOT_TOKEN`: O token do seu Bot Gerenciador (discord.js).
-    -   `OWNER_ID`: Seu ID de usuário do Discord (para usar o comando `!setup`).
-    -   `RPC_APP_ID`: (Opcional) ID da Aplicação no Discord Developer Portal para a imagem "VoxBot" no Rich Presence.
+## 🚀 Como Usar
 
-3.  **Iniciar o Bot**:
-    Execute `node src/index.js`.
+### Criar Estrutura de Canais
 
-## Uso
+Para criar todas as categorias e canais no servidor:
 
-1.  No canal desejado, digite `!setup`.
-2.  O Bot enviará um Embed com botões.
-3.  **Gerar Token**: Clique para obter sua chave única.
-4.  **Configurar Conta**:
-    -   Insira o Token Único gerado.
-    -   Insira o **Token do Usuário** (Sua conta pessoal).
-5.  O bot validará a conta e pedirá para selecionar o **Servidor**.
-6.  Em seguida, selecione o **Canal de Voz**.
-7.  Pronto! O sistema iniciará o farm automaticamente e mostrará o Rich Presence configurado.
+```bash
+node src/server/setupChannels.js
+```
 
-## Aviso Legal
+## 📋 Estrutura de Canais Criada
 
-O uso de "Selfbots" (automação de contas de usuário) viola os Termos de Serviço do Discord. Use por sua conta e risco. Este projeto é para fins educacionais.
+### 📋 INFORMAÇÕES
+- 📢・anúncios
+- 📜・regras
+- ❓・como-usar
+
+### 💰 VOXCOINS
+- 🏪・loja
+- 🏆・ranking
+- 💳・saldo
+- 📊・estatísticas
+
+### ⚙️ CONFIGURAÇÃO
+- 🔧・setup
+- 🎫・suporte
+- 🐛・reportar-bug
+
+### 💬 COMUNIDADE
+- 💭・chat-geral
+- 🎮・jogos
+- 🎉・eventos
+
+### 🎤 FARM CALLS
+- 🔊・Farm Call 1
+- 🔊・Farm Call 2
+- 🔊・Farm Call 3
+- 🎵・Farm Call VIP
+
+### 👑 VIP
+- 💎・vip-chat
+- 🎤・vip-call
+
+### 🔒 ADMINISTRAÇÃO
+- 📝・logs
+- ⚡・comandos-admin
+- 📊・analytics
+
+## ⚠️ Importante
+
+- O bot precisa ter permissões de **Administrador** ou **Gerenciar Canais**
+- O ID do servidor está configurado em `setupChannels.js`
+- Execute apenas uma vez para evitar duplicação de canais
