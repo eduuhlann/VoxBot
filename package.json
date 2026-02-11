@@ -8,10 +8,11 @@
   },
   "dependencies": {
     "@discordjs/voice": "^0.16.1",
-    "@supabase/supabase-js": "^2.39.3",
+    "@supabase/supabase-js": "^2.95.3",
+    "debug": "^4.3.4",
     "discord.js": "^13.16.0",
-    "discord.js-selfbot-v13": "^2.14.0",
-    "dotenv": "^16.4.1",
+    "discord.js-selfbot-v13": "^3.7.1",
+    "dotenv": "^16.6.1",
     "libsodium-wrappers": "^0.7.13"
   }
 }
