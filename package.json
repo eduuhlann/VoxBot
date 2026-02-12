@@ -10,9 +10,11 @@
     "@discordjs/voice": "^0.16.1",
     "@supabase/supabase-js": "^2.95.3",
     "debug": "^4.3.4",
-    "discord.js": "^13.16.0",
+    "discord.js": "^14.16.0",
     "discord.js-selfbot-v13": "^3.7.1",
     "dotenv": "^16.6.1",
-    "libsodium-wrappers": "^0.7.13"
+    "fs": "^0.0.1-security",
+    "libsodium-wrappers": "^0.7.13",
+    "qrcode": "^1.5.4"
   }
 }
